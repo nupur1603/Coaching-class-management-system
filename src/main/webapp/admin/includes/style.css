@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    background: #007bff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+}
+.logo img {
+    max-width: 150px;  /* Adjust width */
+    max-height: 50px;  /* Adjust height */
+    object-fit: contain;
+}
+
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #343a40;
+    color: white;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.sidebar a:hover {
+    background: #007bff;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* Admin Dropdown */
+.admin-dropdown {
+    background: white;
+    color: #007bff;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.admin-dropdown:hover {
+    background: #007bff;
+    color: white;
+}

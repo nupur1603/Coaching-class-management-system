@@ -1,0 +1,20 @@
+# Ignore Eclipse files
+.project
+.classpath
+.settings/
+bin/
+
+# Ignore build files
+build/
+target/
+
+# Ignore server files
+Servers/
+
+# Ignore IDE metadata
+*.log
+
+# Ignore personal database files
+*.mdb
+*.accdb
+*.db
